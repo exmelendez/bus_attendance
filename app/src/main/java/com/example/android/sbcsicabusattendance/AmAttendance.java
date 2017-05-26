@@ -30,6 +30,7 @@ public class AmAttendance extends AppCompatActivity {
         studentList.add(rebececca_stamos);
         studentList.add(luis_ayala);
 
+        //test
         StudentListAdapter adapter = new StudentListAdapter(this, R.layout.student_adapter_view_layout, studentList);
         mListView.setAdapter(adapter);
 
